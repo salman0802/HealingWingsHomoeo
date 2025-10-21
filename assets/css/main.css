@@ -16,7 +16,10 @@
   --heading-font: "Poppins", sans-serif;
   --nav-font: "Raleway", sans-serif;
 }
+ul{
+list-style-image: url('path/to/your/icon.png')
 
+}
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
   --background-color: #ffffff;
