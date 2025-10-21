@@ -77,7 +77,10 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
-
+.diseasesList{
+box-sizing: border-box;
+text-align: left
+}
 a {
   color: var(--accent-color);
   text-decoration: none;
