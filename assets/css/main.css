@@ -6,6 +6,15 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+ul{
+list-style-image: url('..\img\syringe-24px.png');
+}
+.diseases_list{
+box-sizing: border-box;
+text-align: left;
+}
+
 /*--------------------------------------------------------------
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
@@ -15,10 +24,6 @@
   --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Poppins", sans-serif;
   --nav-font: "Raleway", sans-serif;
-}
-ul{
-list-style-image: url('path/to/your/icon.png')
-
 }
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
@@ -80,10 +85,7 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
-.diseases_list{
-box-sizing: border-box;
-text-align: left
-}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
